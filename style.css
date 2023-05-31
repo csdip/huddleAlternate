@@ -386,17 +386,21 @@ footer .copyright{
     header .content .left .left-wrapper {
         width: auto;
     }
+    header {
+        height: auto;
+        margin-bottom: 80px;
+    }
 }
 
 @media (max-width:992px){
-    .navbar {
-        padding: 20px 0;
-    }
     .logo {
         width: 180px;
     }
     .logo img{
         width: 100%;
+    }
+    header .navbar {
+        padding: 20px 0;
     }
     header .content .left {
         width: 100%;
@@ -405,8 +409,8 @@ footer .copyright{
     header .content .left .btn{
         margin: 0 auto;
     }
-    header .content {
-        margin-top: 100px;
+    header .content-wrapper {
+        padding: 100px 0;
     }
     header .content .right {
         width: 100%;
@@ -414,9 +418,6 @@ footer .copyright{
     }
     header .content p {
         margin: 20px 40px 40px;
-    }
-    section.sec-2 .content {
-        padding: 300px 0 0 0;
     }
     section.sec-2 .left h2, section.sec-3 .right h2, section.sec-4 .left h2 {
         font-size: 32px;
@@ -450,6 +451,9 @@ footer .copyright{
     section {
         padding: 60px 0;
     }
+    header .content-wrapper {
+        padding: 60px 0;
+    }
     header .container, nav .container {
         width: 100%;
     }
@@ -459,12 +463,6 @@ footer .copyright{
     header .content p {
         font-size: 18px;
         margin: 20px 5px;
-    }
-    header .content {
-        margin-top: 100px;
-    }
-    section.sec-2 .content {
-        padding: 200px 0 0 0;
     }
     section.sec-2 .right img, section.sec-3 .left img, section.sec-4 .right img {
 	width: 100%;
@@ -535,9 +533,6 @@ footer .copyright{
     header .content p {
         font-size: 15px;
         margin: 20px 0px;
-    }
-    section.sec-2 .content {
-        padding: 60px 0 0 0;
     }
     section.sec-2 .left h2, section.sec-3 .right h2, section.sec-4 .left h2 {
         font-size: 28px;
