@@ -255,16 +255,16 @@ section.sec-4 .right img{
 section.sec-5{
     padding-bottom: 0;
 }
-section.sec-5 .content{
-    text-align: center;
-    background-color: #ffffff;
-    border-radius: 15px;
-    padding: 40px;
-    margin-bottom: -100px;
-    position: relative;
-    z-index: 1;
+section.sec-5 .content {
+	text-align: center;
+	background-color: #ffffff;
+	border-radius: 15px;
+	padding: 40px;
+	position: relative;
+	z-index: 1;
+	width: fit-content;
+	margin: 0 auto -100px;
 }
-
 section.sec-5 .content h3{
     font-size: 38px;
     font-weight: 800;
